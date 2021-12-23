@@ -29,7 +29,7 @@ const Property = ({property: {coverPhoto, price, rentFrequency, rooms, title, ba
                 <Flex alignItems="center" p="1" justify-content="space-between" w="250px" color="blue.400">
                     {rooms} <FaBed /> | {baths} <FaBath /> | {millify(area)} sqft <BsGridFill /> 
                 </Flex>
-                <Text fontsize="lq">
+                <Text fontSize="lq">
                     {title.length > 30 ? `${title.substring(0,30)}` : title}
 
                 </Text>
